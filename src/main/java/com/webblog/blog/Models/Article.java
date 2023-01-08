@@ -60,4 +60,12 @@ public class Article {
         this.views = views;
     }
 
+    public Article(String title, String anons, String fullText) {
+        this.title = title;
+        this.anons = anons;
+        this.fullText = fullText;
+    }
+
+    public Article() {
+    }
 }
